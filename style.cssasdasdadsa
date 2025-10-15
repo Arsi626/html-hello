@@ -1,0 +1,93 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONDO NEGRO (solo laterales) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #000;         /* marco negro lateral */
+  min-height: 100vh;
+}
+
+/* PÁGINA GRIS CENTRADA */
+.Page {
+  background: #e9e9e9;      /* “lienzo” gris */
+  max-width: 1500px;        /* 🔥 más ancha → menos negro a los lados */
+  min-height: 100vh;        /* ocupa toda la altura */
+  margin: 0 auto;           /* centra horizontalmente */
+  display: flex;
+  flex-direction: column;
+}
+
+/* TÍTULO */
+.Titulo {
+  background: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+.Titulo h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* CONTENEDOR DEL FEED */
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 30px 0 60px;
+}
+
+/* TARJETA DE CADA POST */
+.Post {
+  width: 90%;
+  max-width: 640px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* CABECERA DEL POST */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+}
+.Titulopost {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.postfecha {
+  font-size: 13px;
+  color: #999;
+}
+
+/* IMAGEN Y DESCRIPCIÓN */
+.Foto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.Descripcion {
+  padding: 12px 15px 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.
+
+
